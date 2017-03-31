@@ -57,3 +57,19 @@ for(i in 1:10){
   total = total + i**2
 }
 total
+  
+#Definidas por el paquete base de R
+sum(1:20)
+
+#Funcion definida por el usuario
+avg <- function(x){
+  return(sum(x)/length(x))
+}
+avg(1:10)
+#Resumen 
+summary("avg")
+summary("lm")
+help("summary")
+
+  
+  
